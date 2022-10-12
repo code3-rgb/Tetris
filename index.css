@@ -1,0 +1,41 @@
+
+
+body {
+    display: grid;
+    height: 100vh;
+    background: yellow;
+    place-content: center;
+    overflow: hidden;
+}
+
+.game {
+    transition: 0.3s ease-in-out;
+    max-width: 500px;
+    display: grid;
+    padding-top: 1rem;
+    border-radius: 10px;
+    background: purple;
+    place-content: center;
+    border: 5px solid white;
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(15,30px);
+    grid-template-rows: repeat(20,30px);
+    border: 2px solid white;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+.buttons button {
+    font-size: 2rem;
+    padding: 1rem;
+    border: 5px solid white;
+    margin: 1rem;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+}
